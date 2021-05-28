@@ -3,4 +3,4 @@ Source code of the project: https://github.com/philipplackner/RunningAppYT/tree/
 Videos tutorial followed : https://www.youtube.com/playlist?list=PLQkwcJG4YTCQ6emtoqSZS2FVwZR9FT3BV
 
 1. Added Room DB
-
+2. Added DaggerHilt and timber for logs
