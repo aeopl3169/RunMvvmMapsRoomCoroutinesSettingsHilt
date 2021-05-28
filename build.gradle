@@ -20,6 +20,9 @@ allprojects {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
+        // Add the below maven to get rid of
+        // Failed to resolve: com.github.PhilJay:MPAndroidChart:v3.1.0
+        maven { url "https://jitpack.io" }
     }
 }
 

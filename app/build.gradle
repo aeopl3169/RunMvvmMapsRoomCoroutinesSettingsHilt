@@ -62,8 +62,16 @@ dependencies {
     // Activity KTX for viewModels() // To inject stuff into viewModels
     implementation "androidx.activity:activity-ktx:1.2.3"
 
+    // To get rid of "Unresolved Reference viewModels"
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    implementation 'androidx.fragment:fragment-ktx:1.4.0-alpha01'
+
     // Timber
     implementation 'com.jakewharton.timber:timber:4.7.1'
+
+    // MPAndroidChart - LineChart - com.github.mikephil.charting.charts.LineChart
+    // Add maven { url "https://jitpack.io" } to avoid error build.
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
